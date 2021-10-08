@@ -9,3 +9,8 @@ function minus(a) {
     return a - b;
   };
 }
+function multiple(a){
+    return function(b){
+        return a*b;
+    }
+}
