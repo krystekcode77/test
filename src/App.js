@@ -4,3 +4,8 @@ function add(a){
         return a+b;
     }
 }
+function minus(a) {
+  return function (b) {
+    return a - b;
+  };
+}
